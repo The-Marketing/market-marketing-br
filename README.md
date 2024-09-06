@@ -8,7 +8,7 @@ Next.js: Framework React para aplicações web rápidas e escaláveis.
 Gemini AdSense Auth: Solução para autenticação de usuários.
 ShadCN: Biblioteca de componentes UI para criar interfaces elegantes.
 SEO Avançado: Técnicas para otimização de motores de busca e desempenho.
-Funcionalidades
+# Funcionalidades
 Autenticação segura com Gemini AdSense.
 Estilização moderna e responsiva com ShadCN.
 Melhorias de SEO para uma melhor visibilidade nos motores de busca.
