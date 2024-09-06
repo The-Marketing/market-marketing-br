@@ -1,4 +1,4 @@
-# ALAURA - GEMINIS
+# ALURA - GEMINIS
 ## Next.js com Gemini AdSense Auth, ShadCN e SEO
 Aplicação web desenvolvida com Next.js, que inclui autenticação Gemini AdSense, estilização com ShadCN e otimização avançada para SEO.
 
