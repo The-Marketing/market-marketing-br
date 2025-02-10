@@ -8,7 +8,7 @@ const Logo = () => {
 
   return (
     <>
-      <Link className="h-3 w-3 transition-all group-hover:scale-110" href="/" >
+      <Link  href="/" >
         <Image
           src="/fav-icon.png"
           alt="Logo"

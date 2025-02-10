@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-import Homepage from '@/components/home/homepage';
+import { Homepage } from '@/components/home/homepage';
 
 export const metadata: Metadata = {
   title: 'AI ®TH O MARKETING É BEM-VINDO'

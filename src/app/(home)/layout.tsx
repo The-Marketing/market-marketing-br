@@ -1,6 +1,6 @@
 import DesktopNav from '@/components/home/navbar/desktop-nav';
 import MobileNav from '@/components/home/navbar/mobile-nav';
-import { User } from '@/components/home/navbar/user';
+import User from '@/components/home/navbar/user';
 import Providers from '@/components/home/providers.';
 import { SearchInput } from '@/components/home/search/search';
 
@@ -29,7 +29,7 @@ export default function HomeLayout({
             <MobileNav />
 
             <SearchInput />
-            <User /> 
+            < User /> 
           </header>
           <main className="grid flex-1 items-start gap-2 p-4 sm:px-6 sm:py-0 md:gap-4 bg-muted/40">
             {children}
