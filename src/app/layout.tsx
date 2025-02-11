@@ -3,8 +3,6 @@ import '@/app/globals.css';
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 
-import Logo from '@/components/logo';
-import { ThemeProvider } from '@/components/theme-provider';
 import { cn } from '@/lib/utils';
 
 const fontSans = FontSans({
@@ -28,28 +26,15 @@ export default function RootLayout({
     <>
       <html lang="pt-BR" suppressHydrationWarning>
         <body className={cn(
-          "h-screen flex flex-col gap-24 items-center justify-center",
+          "h-screen  flex flex-col gap-24 items-center justify-between",
           fontSans.variable
         )}>
 
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-              <header className="flex flex-col gap-24 items-center justify-center">
-      <div className="tw-flex tw-items-center">
-        < Logo />
-        <h1 className="tw-text-2xl tw-font-bold">The Marketing</h1>
-
-      </div>
-    </header>
-            <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">{children}</main>
-          </ThemeProvider>
+            <main className="flex-1 w-full mx-auto max-w-7xl">
+              {children}
+            </main>
         </body>
       </html>
     </>
   )
 }
-

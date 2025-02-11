@@ -10,7 +10,7 @@ const Logo = () => {
     <>
       <Link  href="/" >
         <Image
-          src="/fav-icon.png"
+          src="/favicon.ico"
           alt="Logo"
           width={30}
           height={30}
