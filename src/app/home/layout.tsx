@@ -19,7 +19,7 @@ export default function HomeLayout({ children }: { children: React.ReactNode }) 
         <DesktopNav />
 
         {/* Mobile Navigation */}
-        <div className="flex flex-col w-full sm:gap-4 sm:py-4 ">
+        <div className="flex flex-col w-full  ">
           <header className="sticky top-0 z-30 flex items-center justify-between gap-4 border-b bg-background sm:static sm:h-auto sm:border-0 sm:bg-transparent ">
             <MobileNav />
             {/* <SearchInput />
