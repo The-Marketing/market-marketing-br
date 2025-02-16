@@ -11,9 +11,6 @@ importers:
       '@hookform/resolvers':
         specifier: ^3.9.0
         version: 3.10.0(react-hook-form@7.54.2(react@18.3.1))
-      '@nanostores/react':
-        specifier: https://github.com/ai/react
-        version: git+https://git@github.com:ai/react.git#34a81026c4aeaa572bc651e3d36b47274de2f890(nanostores@0.11.3)(react@18.3.1)
       '@radix-ui/react-accordion':
         specifier: ^1.2.0
         version: 1.2.3(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1127,14 +1124,6 @@ packages:
     resolution: {integrity: sha512-llMXd39jtP0HpQLVI37Bf1m2ADlEb35GYSh1SDSLsBhR+5iCxiNGlT31yqbNtVHygHAtMy6dWFERpU2JgufhPg==}
     engines: {node: '>=18'}
     hasBin: true
-
-  '@nanostores/react@git+https://git@github.com:ai/react.git#34a81026c4aeaa572bc651e3d36b47274de2f890':
-    resolution: {commit: 34a81026c4aeaa572bc651e3d36b47274de2f890, repo: git@github.com:ai/react.git, type: git}
-    version: 0.8.4
-    engines: {node: ^18.0.0 || >=20.0.0}
-    peerDependencies:
-      nanostores: ^0.9.0 || ^0.10.0 || ^0.11.0
-      react: '>=18.0.0'
 
   '@next/env@15.1.7':
     resolution: {integrity: sha512-d9jnRrkuOH7Mhi+LHav2XW91HOgTAWHxjMPkXMGBc9B2b7614P7kjt8tAplRvJpbSt4nbO1lugcT/kAaWzjlLQ==, tarball: https://registry.npmjs.org/@next/env/-/env-15.1.7.tgz}
@@ -3968,10 +3957,6 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanostores@0.11.3:
-    resolution: {integrity: sha512-TUes3xKIX33re4QzdxwZ6tdbodjmn3tWXCEc1uokiEmo14sI1EaGYNs2k3bU2pyyGNmBqFGAVl6jAGWd06AVIg==, tarball: https://registry.npmjs.org/nanostores/-/nanostores-0.11.3.tgz}
-    engines: {node: ^18.0.0 || >=20.0.0}
-
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==, tarball: https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz}
 
@@ -6407,11 +6392,6 @@ snapshots:
     transitivePeerDependencies:
       - encoding
       - supports-color
-
-  '@nanostores/react@git+https://git@github.com:ai/react.git#34a81026c4aeaa572bc651e3d36b47274de2f890(nanostores@0.11.3)(react@18.3.1)':
-    dependencies:
-      nanostores: 0.11.3
-      react: 18.3.1
 
   '@next/env@15.1.7': {}
 
@@ -9742,8 +9722,6 @@ snapshots:
       thenify-all: 1.6.0
 
   nanoid@3.3.8: {}
-
-  nanostores@0.11.3: {}
 
   natural-compare@1.4.0: {}
 
