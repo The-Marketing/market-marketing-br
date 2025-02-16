@@ -32,19 +32,19 @@ export default function DesktopNav() {
 
               {/* <span className="sr-only">®TM</span> */}
             </Link>
-            <NavItem href="/website" label="Site">
+            <NavItem href="/marketing/site" label="Site">
               <PanelsTopLeft  className="h-6 w-6 transition-all duration-620 ease-in-out  group-hover:text-white animate-pulse   hover:text-gray-300 hover:animate-in hover:animate-none " />
             </NavItem>
-            <NavItem href="/logotypes" label="Logotipos">
+            <NavItem href="/marketing/logo" label="Logotipos">
               <BadgeCheck  className="h-6 w-6 transition-all duration-600 ease-in-out group-hover:text-white animate-pulse  hover:text-gray-300 hover:animate-in hover:animate-none  " />
             </NavItem>
-            <NavItem href="/publicity/ads" label="Ads">
+            <NavItem href="/marketing/publicity/ads" label="Ads">
               <Chrome  className="h-6 w-6 transition-all duration-680 ease-in-out group-hover:text-white animate-pulse   hover:text-gray-300 hover:animate-in hover:animate-none  " />
             </NavItem>
-            <NavItem href="/publicity/meta" label="Meta">
+            <NavItem href="/marketing/publicity/meta" label="Meta">
               <Instagram  className="h-6 w-6 transition-all duration-580 ease-in-out group-hover:text-white animate-pulse   hover:text-gray-300 hover:animate-in hover:animate-none " />
             </NavItem>
-            <NavItem href="/campaign" label="Campanha">
+            <NavItem href="/marketing/campaign" label="Campanha">
               <TrendingUp className="h-6 w-6 transition-all duration-608 ease-in-out group-hover:text-white animate-pulse  hover:text-gray-300 hover:animate-in hover:animate-none " />
             </NavItem>
           </nav>
