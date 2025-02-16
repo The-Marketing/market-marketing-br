@@ -1,6 +1,9 @@
 import React from 'react';
-import { animated } from 'react-spring';
-import { useSpring } from 'react-spring';
+
+import {
+  animated,
+  useSpring,
+} from 'react-spring';
 
 const Testimonials = () => {
     const hoverScale = useSpring({ scale: 1, from: { scale: 0.95 }, config: { tension: 200, friction: 10 } });
@@ -15,7 +18,7 @@ const Testimonials = () => {
             className="bg-gray-700 rounded-lg p-10 shadow-lg transform transition duration-300 hover:scale-105 max-w-xs"
             style={hoverScale} // Apply hover animation
           >
-            <p className="text-lg text-gray-300 mb-6">"O THE MARKETING transformou minha presença online e impulsionou minhas vendas em pouco tempo!"</p>
+            <p className="text-lg text-gray-300 mb-6">O THE MARKETING transformou minha presença online e impulsionou minhas vendas em pouco tempo!</p>
             <h3 className="font-semibold text-lg">João Silva</h3>
             <p className="text-gray-400">CEO da Silva Tech</p>
           </animated.div>
@@ -25,7 +28,7 @@ const Testimonials = () => {
             className="bg-gray-700 rounded-lg p-10 shadow-lg transform transition duration-300 hover:scale-105 max-w-xs"
             style={hoverScale} // Apply hover animation
           >
-            <p className="text-lg text-gray-300 mb-6">"Graças ao THE MARKETING, aumentei a visibilidade do meu negócio e agora sou referência em meu segmento."</p>
+            <p className="text-lg text-gray-300 mb-6">Graças ao THE MARKETING, aumentei a visibilidade do meu negócio e agora sou referência em meu segmento.</p>
             <h3 className="font-semibold text-lg">Maria Souza</h3>
             <p className="text-gray-400">Fundadora da Maria Fashion</p>
           </animated.div>

@@ -1,9 +1,10 @@
 // HomeLayout.tsx
 import DesktopNav from '@/components/home/navbar/desktop-nav';
 import MobileNav from '@/components/home/navbar/mobile-nav';
-import User from '@/components/home/navbar/user';
+// import User from '@/components/home/navbar/user';
 import Providers from '@/components/home/providers.';
-import { SearchInput } from '@/components/home/search/search';
+
+// import { SearchInput } from '@/components/home/search/search';
 
 export const metadata = {
   title: 'IA Conteúdo Digital | ®TM',
